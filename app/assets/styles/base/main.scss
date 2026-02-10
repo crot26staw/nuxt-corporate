@@ -9,26 +9,24 @@
 }
 
 body {
-    font-family: 'Noto Sans';
+  font-family: 'Noto Sans', sans-serif;
 }
 
 a {
+  color: $black;
   text-decoration: none;
-    color: $black;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 .container {
   max-width: 1760px;
   margin: 0 auto;
-  padding: 0 80px;
 
-  @include bp-1920{
+  @include bp-1920 {
     max-width: 1440px;
-    padding: 0 40px;
   }
 
   @include mobile {

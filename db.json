@@ -1,0 +1,28 @@
+{
+  "header-menu": [
+    {
+      "name": "О компании",
+      "link": "/about"
+    },
+    {
+      "name": "Услуги",
+      "link": "/services"
+    },
+    {
+      "name": "Проекты",
+      "link": "/projects"
+    },
+    {
+      "name": "Новости",
+      "link": "/news"
+    },
+    {
+      "name": "Отзывы",
+      "link": "/reviews"
+    },
+    {
+      "name": "Контакты",
+      "link": "/contacts"
+    }
+  ]
+}

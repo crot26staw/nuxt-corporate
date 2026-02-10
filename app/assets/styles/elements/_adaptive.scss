@@ -1,5 +1,5 @@
 @mixin bp-1920 {
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 1919px) {
     @content;
   }
 }

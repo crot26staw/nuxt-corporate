@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Главная страница
-    </div>
+  <div class="page">
+    <RareMainPageHero />
+  </div>
 </template>

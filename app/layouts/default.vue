@@ -1,6 +1,6 @@
 <template>
   <div class="layout-default">
-    <p>Heder</p>
+    <MainHeader />
     <main>
       <slot />
     </main>
