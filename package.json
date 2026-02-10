@@ -8,12 +8,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "pnpm lint:eslint && pnpm lint:prettier",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier . --check",
     "fix": "eslint . --fix && prettier --write --list-different .",
     "prepare": "husky",
-    "pre-commit": "pnpm lint"
+    "pre-commit": "lint"
   },
   "lint-staged": {
     "*.{js,ts,vue,yaml}": [
