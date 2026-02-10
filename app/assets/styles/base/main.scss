@@ -1,0 +1,37 @@
+@forward 'swiper/css';
+@forward 'swiper/css/navigation';
+@forward 'swiper/css/pagination';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans';
+}
+
+a {
+  text-decoration: none;
+    color: $black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container {
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 0 80px;
+
+  @include bp-1920{
+    max-width: 1440px;
+    padding: 0 40px;
+  }
+
+  @include mobile {
+    padding: 0 16px;
+  }
+}
