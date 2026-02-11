@@ -25,6 +25,49 @@
       "link": "/contacts"
     }
   ],
+  "footer": {
+    "menu": {
+      "column1": [
+        {
+          "name": "О компании",
+          "link": "/about"
+        },
+        {
+          "name": "Услуги",
+          "link": "/services"
+        },
+        {
+          "name": "Проекты",
+          "link": "/projects"
+        },
+        {
+          "name": "Вопросы и ответы",
+          "link": "/faq"
+        }
+      ],
+      "column2": [
+        {
+          "name": "Новости",
+          "link": "/news"
+        },
+        {
+          "name": "Вакансии",
+          "link": "/vacansies"
+        },
+        {
+          "name": "Отзывы",
+          "link": "/reviews"
+        },
+        {
+          "name": "Контакты",
+          "link": "/contacts"
+        }
+      ]
+    },
+    "phone": "+7 927 868-03-41",
+    "email": "info@unit.productions",
+    "address": "г. Ставрополь, ул. Промышленная, 24, офис 3Б"
+  },
   "main-page": {
     "hero": {
       "title": "Современные панорамные решения для вашего пространства",

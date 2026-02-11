@@ -3,7 +3,7 @@ const { menu, pending } = useHeaderMenu();
 </script>
 
 <template>
-  <div class="header">
+  <header class="header">
     <div class="container">
       <div class="header__wrapper">
         <NuxtLink to="/" class="header__logo">
@@ -16,7 +16,7 @@ const { menu, pending } = useHeaderMenu();
         </ul>
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <style lang="scss">
