@@ -1,11 +1,11 @@
 @font-face {
   font-weight: 100 900;
-  font-family: 'Noto Sans';
+  font-family: Inter;
   font-style: normal;
   font-stretch: 75% 125%;
-  src: url('~/assets/fonts/NotoSansMono-VariableFont_wdth,wght.ttf')
+  src: url('~/assets/fonts/Inter-VariableFont_slnt,wght.ttf')
     format('truetype-variations');
-  src: url('~/assets/fonts/NotoSansMono-VariableFont_wdth,wght.ttf')
-    format('truetype') tech('variations');
+  src: url('~/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype')
+    tech('variations');
   font-display: swap;
 }
