@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/image', 'nuxt-swiper', '@nuxt/eslint'],
+  modules: ['@nuxt/image', '@nuxt/eslint'],
 
   css: ['~/assets/styles/base/main.scss'],
   runtimeConfig: {
